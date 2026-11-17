@@ -1,0 +1,752 @@
+{
+  "schema": "inheritfi-manifest/2",
+  "env": "mainnet",
+  "chainId": 1,
+  "owner": "0xD01288D704B7116BAcb49585680eC422e53409Ba",
+  "deployment": {
+    "startBlock": 26387877,
+    "exportedAt": "2026-11-12T23:05:04Z",
+    "deployer": "0xdBcc61cE3Ce73506A9F25e20c48Ba3d5e535e635",
+    "toolchain": {
+      "forge": {
+        "version": "1.8.6",
+        "commit": "6bad0a66de7c83f7b33695044138f0f5fa4c5990"
+      },
+      "solc": "0.8.38+commit.1835d247",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "evmVersion": "osaka",
+      "viaIR": true
+    },
+    "broadcast": {
+      "path": "broadcast/DeployMainnet.s.sol/1/run-latest.json",
+      "sha256": "083a48e03d24da4ac137ce4ee323a98e0bb6256edd7fd06d20be6dc4bf523dbb"
+    },
+    "assetsList": {
+      "path": "config/assets.mainnet.json",
+      "sha256": "e0173e274211a42cac04f63cd53ac818f86a36a0cdfc2ebd2072344aaf591519"
+    }
+  },
+  "libraries": [
+    {
+      "name": "InheritfiV1GovernanceLib",
+      "address": "0x0601a3fd01B747EdEA0D493913B1242BC521935c",
+      "txHash": "0xd9ed4b771a2e3aa74215ef1175705521270cec17f88c6d927aca8066166edee9",
+      "blockNumber": 26387877,
+      "abi": {
+        "file": "abi/InheritfiV1GovernanceLib.json",
+        "sha256": "ea6f29f5d70e24a78545eef12ffc95276e900080fc7e109822ec88c6a899e19e"
+      },
+      "sourceSha256": "f7947e818b5df2c8a504b1f70c14cb1799bbf0108a534aef51903856a9064524"
+    },
+    {
+      "name": "InheritfiV1InheritanceLib",
+      "address": "0xC94E2F80fb08b0736972fe7EA224FAdEA2d21386",
+      "txHash": "0x6be79bce5485b59e275c7e887d0fffde6f167157c1b57e19812427f7cc0cc12e",
+      "blockNumber": 26387878,
+      "abi": {
+        "file": "abi/InheritfiV1InheritanceLib.json",
+        "sha256": "367809132527a26bd982e0a0b765d701d735894264764f297cab7fc87b42be55"
+      },
+      "sourceSha256": "d9db26e5947aa58aa2d7194adac2772e1a29d7d27aff9e421fbacf6bf167ce25"
+    }
+  ],
+  "assets": [
+    {
+      "ticker": "ETH",
+      "iToken": {
+        "name": "INHERITFI V1 ETH",
+        "symbol": "iETH"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1ETH",
+        "address": "0xAfc5991a78B1137c3e6fFB3CDF03452880bAefa4",
+        "txHash": "0x36d2a570f92227719e63f2ff032b2734302ede425514407f1d5faa051d4e8e6c",
+        "blockNumber": 26387879,
+        "abi": {
+          "file": "abi/InheritfiV1ETH.json",
+          "sha256": "19f2f0ec8f57c9b371313943b2b5c0d1498f832fa825de4e06281f2f034093b6"
+        },
+        "sourceSha256": "7729bee33dda774183024a68bd8bd6f1de158e81af091bd5319d9b2a3656dcb4"
+      },
+      "underlying": {
+        "kind": "native",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "AAVE",
+      "iToken": {
+        "name": "INHERITFI V1 AAVE",
+        "symbol": "iAAVE"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1AAVE",
+        "address": "0x04387AEe5cBAF9763E332C9586f24e24eb63993F",
+        "txHash": "0x970a4903da6fc9ddaaa52d04660f8bfb549c99cf61a915b391b05bdc29bd2f8a",
+        "blockNumber": 26387880,
+        "abi": {
+          "file": "abi/InheritfiV1AAVE.json",
+          "sha256": "a13fce4a6d0e892c4bb94068236a6ec4742ca16afb7151bfffb6ad2454571f1d"
+        },
+        "sourceSha256": "2f3c3d064e38615622b32c47651f4b8cc5873fa3b8559859d840d6966ba329d7"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "symbol": "AAVE",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "AXS",
+      "iToken": {
+        "name": "INHERITFI V1 AXS",
+        "symbol": "iAXS"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1AXS",
+        "address": "0x5c03977830675B657a8b06be6F11e09319086F19",
+        "txHash": "0xeb4fec2a1c97cbf2e424e78f31faf33f755bde34737b91886f48fccc5bd11ea7",
+        "blockNumber": 26387881,
+        "abi": {
+          "file": "abi/InheritfiV1AXS.json",
+          "sha256": "7971a73469192fa600e572ef880b7d579903b0e22495fb65dff81806ac19c63c"
+        },
+        "sourceSha256": "64ae150ce415673184674152571d9cf0d915021eb1c0bec6eb3f32f058e66f94"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b",
+        "symbol": "AXS",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "COMP",
+      "iToken": {
+        "name": "INHERITFI V1 COMP",
+        "symbol": "iCOMP"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1COMP",
+        "address": "0x2c5d1E668Fba493615e877eBA8348BF93A295fd1",
+        "txHash": "0xcceb6bc8752607e0a041a1ef34fbd83cc63c064b673833e26850f59f21ac986d",
+        "blockNumber": 26387882,
+        "abi": {
+          "file": "abi/InheritfiV1COMP.json",
+          "sha256": "9492d02fdb0522fd2d74353789468a4305ca0909806b730f5d654863ba3115db"
+        },
+        "sourceSha256": "15e6b202ad56f23ec5a68590bb8a02ef9eab2d8b99f122ef2159687454c36e53"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+        "symbol": "COMP",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "CRV",
+      "iToken": {
+        "name": "INHERITFI V1 CRV",
+        "symbol": "iCRV"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1CRV",
+        "address": "0xeBF86441d4c088938fD3F9a1E01C1ef65e4641C5",
+        "txHash": "0xc630cdaaf9cb803d6224350fb0def1e0285ad225c57985b2071fba60f74c8242",
+        "blockNumber": 26387884,
+        "abi": {
+          "file": "abi/InheritfiV1CRV.json",
+          "sha256": "5b231732f779e799d717b8a573879c138fa42d022ffc067809f43fe3f1883e8c"
+        },
+        "sourceSha256": "69c59a86a015c7269319864a207a9e26b1bd832f54d2408739c2b9322cb8337d"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "symbol": "CRV",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "crvUSD",
+      "iToken": {
+        "name": "INHERITFI V1 crvUSD",
+        "symbol": "icrvUSD"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1crvUSD",
+        "address": "0xf47f91e2731667F03B7d28C1e3C90dE4Cfcd8d3c",
+        "txHash": "0x765ad88e00e372c06a58cc9c7dd2065b1a4bfab0a6457ee6fa8371e9d4409649",
+        "blockNumber": 26387885,
+        "abi": {
+          "file": "abi/InheritfiV1crvUSD.json",
+          "sha256": "5568d95041fccf059c5466df6db87170dc7b3f21a3d9a90e2cb645fe158ab2b6"
+        },
+        "sourceSha256": "772366b655528ec92393816dc25da44ee8df00a0ccad302f1bc61c60065bb6f1"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+        "symbol": "crvUSD",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "CVX",
+      "iToken": {
+        "name": "INHERITFI V1 CVX",
+        "symbol": "iCVX"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1CVX",
+        "address": "0x81b54C2efde41096132Dd776eA0bd6154698cC8C",
+        "txHash": "0x4ca89f00d2392424daab3155aaf350d1f0352feba67aaf0c325086b2a7f5fe3b",
+        "blockNumber": 26387886,
+        "abi": {
+          "file": "abi/InheritfiV1CVX.json",
+          "sha256": "264ba777103e096c78dbe67a0090698b8535b2cf27e6ae292c321ebba8ded4e2"
+        },
+        "sourceSha256": "f1310eefd915567188cd213454b2e9152de765aadcac34e6eff0140843682d21"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+        "symbol": "CVX",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "DAI",
+      "iToken": {
+        "name": "INHERITFI V1 DAI",
+        "symbol": "iDAI"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1DAI",
+        "address": "0xF891601608E4F297107450b24E4dE6B6638a9eb1",
+        "txHash": "0x4743e78000d06fc0f62042d8cbdd6998d55e1bbb578945741062c4533b6c8436",
+        "blockNumber": 26387887,
+        "abi": {
+          "file": "abi/InheritfiV1DAI.json",
+          "sha256": "2f9bf39a82f67989196d7868f13cd0c06331b25412762a365b04c947c83225c6"
+        },
+        "sourceSha256": "6a5515194fbb0c1b678416e4b5028e994cea80ac9a457fc8ee6700aa8f791d0c"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "symbol": "DAI",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "ENS",
+      "iToken": {
+        "name": "INHERITFI V1 ENS",
+        "symbol": "iENS"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1ENS",
+        "address": "0xC9C97495404eCb822A3dd56F9615119f92D6B6bc",
+        "txHash": "0x306962b3f445636ee6f5ac5046d9b7b6c3f9a6573a36be049dac4b2249484f30",
+        "blockNumber": 26387889,
+        "abi": {
+          "file": "abi/InheritfiV1ENS.json",
+          "sha256": "8984449f2d093cd00eba94b372d33f82750ba66d7a000dd17be0764f94694954"
+        },
+        "sourceSha256": "b8933f5c3de4b3f10af30cfd4f7a7e8def302329f7a807c34b2502a5e0ce26e2"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+        "symbol": "ENS",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "ETHFI",
+      "iToken": {
+        "name": "INHERITFI V1 ETHFI",
+        "symbol": "iETHFI"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1ETHFI",
+        "address": "0x2baF5EBA11F4584FEF4bc099aB082a6a9428d13A",
+        "txHash": "0x258ed32daf3ca762a614eaf62771d22fbde810351b6fff2a56d88cc4ada475b8",
+        "blockNumber": 26387890,
+        "abi": {
+          "file": "abi/InheritfiV1ETHFI.json",
+          "sha256": "2e0f870ef3ea5fef601daed449a9b7df05caf1b5f82e3d8427786da79adcd6f3"
+        },
+        "sourceSha256": "743e8532b8197b9de0698751b354e4f8de4a6ee2b3a3d2802476de61a96a2b16"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+        "symbol": "ETHFI",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "FET",
+      "iToken": {
+        "name": "INHERITFI V1 FET",
+        "symbol": "iFET"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1FET",
+        "address": "0x3AA60d63f68445147c5B6D9205DE8904a7927549",
+        "txHash": "0xdd86257547f16fcb1ac284e71014e5db8ac21da8fe0dfb8dc159f527f108ba7c",
+        "blockNumber": 26387891,
+        "abi": {
+          "file": "abi/InheritfiV1FET.json",
+          "sha256": "46f798f8462126fdf0aaf33181f3f67a30d879cc958645cc95a487f579a3b28e"
+        },
+        "sourceSha256": "3b2eb2fce99b23a519c0203ac25cc59c8ec7aad27fe9ba59a6f44a980b4ac973"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+        "symbol": "FET",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "GHO",
+      "iToken": {
+        "name": "INHERITFI V1 GHO",
+        "symbol": "iGHO"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1GHO",
+        "address": "0xF6738797bCdA9D3F5469dAeDb4786F32d4868D33",
+        "txHash": "0xe4d16fb61863a991af1d1cc915a34264f4ea2b01c73c515214f4578503d45c89",
+        "blockNumber": 26387892,
+        "abi": {
+          "file": "abi/InheritfiV1GHO.json",
+          "sha256": "41549a09929f9162377ec589bcc13db281c5e291dbfe3199da98de29ee437a07"
+        },
+        "sourceSha256": "8ffb3f3ddffc4eb1daa254c41ed1b7898c8d0a52dad0a46afc07ad38b0a5ba2a"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+        "symbol": "GHO",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "GRT",
+      "iToken": {
+        "name": "INHERITFI V1 GRT",
+        "symbol": "iGRT"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1GRT",
+        "address": "0xfAaBBbD1628962C579B3C4E8e2Ee5359874380A2",
+        "txHash": "0x48cc0d0417f6922db7d14716de89076278fdef9c67efca3c2710a87f8b9809ec",
+        "blockNumber": 26387893,
+        "abi": {
+          "file": "abi/InheritfiV1GRT.json",
+          "sha256": "75966f0a93dbe8b94e635fe9d313f47456b5c134c2a9a3460ffc39df7bf9eadf"
+        },
+        "sourceSha256": "5f58d3772dc2e3ea5e7da7f6985eced8ad512275e56f14567e4b95a9a490e7ba"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+        "symbol": "GRT",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "IMX",
+      "iToken": {
+        "name": "INHERITFI V1 IMX",
+        "symbol": "iIMX"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1IMX",
+        "address": "0x4051A3BDd4633535645342FD39E762B87Ca9b6Da",
+        "txHash": "0x716c472657a569ffb52da3d035f8c44b8d0568b8b5fd2b09aab44b5adff6b3a6",
+        "blockNumber": 26387894,
+        "abi": {
+          "file": "abi/InheritfiV1IMX.json",
+          "sha256": "cb75a50095dec5a5f95838dac690dad46b872bc02dbfc7cd541df8a298c2b126"
+        },
+        "sourceSha256": "06be1959ab60cb8b548da928cf8a96cc9e56112daec0776209d5667a2e5ed7e0"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
+        "symbol": "IMX",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "INJ",
+      "iToken": {
+        "name": "INHERITFI V1 INJ",
+        "symbol": "iINJ"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1INJ",
+        "address": "0xC7AaBf1Bc6daE558b6c6418144Bf8Dd4c85F4EfB",
+        "txHash": "0xc6cabcfc839fe243c09d015a33281f5550ea28322aa864346e489345e0d8dcc8",
+        "blockNumber": 26387896,
+        "abi": {
+          "file": "abi/InheritfiV1INJ.json",
+          "sha256": "ee79de8dbbf0dddb7bd5c8af295608fb825a2462f1382f96f4c773d55e8025ed"
+        },
+        "sourceSha256": "9f9b2f8744741d039809f539da2c1b89f4874bf5be8f5500bda1bdf3f3fdfad7"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+        "symbol": "INJ",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "JASMY",
+      "iToken": {
+        "name": "INHERITFI V1 JASMY",
+        "symbol": "iJASMY"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1JASMY",
+        "address": "0x1082C7d79821fC0d1c9734B29475528C714B0177",
+        "txHash": "0xed0be4a716b9144b5d2d759132cc8bb282ac81f3430ce541bb0aae3e5583c5e8",
+        "blockNumber": 26387897,
+        "abi": {
+          "file": "abi/InheritfiV1JASMY.json",
+          "sha256": "62788075b460ed5309477e210c2ce6c06a91b5def21cf990df895f98b69e4031"
+        },
+        "sourceSha256": "f68f0eb2e1b6a99ac997a6ac427bdbd4c79c8588fdddf28e752e631dbbd2c613"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+        "symbol": "JASMY",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "LDO",
+      "iToken": {
+        "name": "INHERITFI V1 LDO",
+        "symbol": "iLDO"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1LDO",
+        "address": "0x3cDF99dD5786e636AF29735733E7aB2357b6583f",
+        "txHash": "0xc5568266db3c220f668cbd252fa015dce50ac4744b385477d0a6a7e649be622f",
+        "blockNumber": 26387898,
+        "abi": {
+          "file": "abi/InheritfiV1LDO.json",
+          "sha256": "440813d2e3c776ea2b51e21fbb9209c859598dd5c5043c414172b29c77a90763"
+        },
+        "sourceSha256": "efc14d195bfa4a0248c0506684b5b7b177d27b23ebb31b4b371f1bf7dac61200"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+        "symbol": "LDO",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "LINK",
+      "iToken": {
+        "name": "INHERITFI V1 LINK",
+        "symbol": "iLINK"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1LINK",
+        "address": "0xa10E8d825DeDA3B7531C51711D1901cAB08be460",
+        "txHash": "0x455616e71d258785d1ea81dcfb2fee191a2fbc03e86159c120d59b8bc2d7007f",
+        "blockNumber": 26387899,
+        "abi": {
+          "file": "abi/InheritfiV1LINK.json",
+          "sha256": "fca644148a762d4977616659b739e6ea02484a2b7254476ac8f9aa0b79a86c86"
+        },
+        "sourceSha256": "1fe4f25aa99f7063befab6b4844dd5e0039753216ddbd112dabab65993ac4484"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "symbol": "LINK",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "PENDLE",
+      "iToken": {
+        "name": "INHERITFI V1 PENDLE",
+        "symbol": "iPENDLE"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1PENDLE",
+        "address": "0xe45D4691D32D7314De33a745D4C9f96d634f61B8",
+        "txHash": "0x466c5b7f34bff53d22cb606e8c36f03f83175a950058c4304878f7af23469b97",
+        "blockNumber": 26387901,
+        "abi": {
+          "file": "abi/InheritfiV1PENDLE.json",
+          "sha256": "faff0c0cb1868fe19efc3b150890465c14537498a031254a1e5240ab3164823e"
+        },
+        "sourceSha256": "1d96771a83aa884fcd55593ec9328f50846416a60b77cd010cf2f15ca17886e6"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x808507121B80c02388fAd14726482e061B8da827",
+        "symbol": "PENDLE",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "PEPE",
+      "iToken": {
+        "name": "INHERITFI V1 PEPE",
+        "symbol": "iPEPE"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1PEPE",
+        "address": "0x249f512BaA2677B2C00661268729cA9e5B8b4284",
+        "txHash": "0x247316288aa8a6f935f386e00bb3524ab7b50134c98b84e4556e4a484fb6bc8f",
+        "blockNumber": 26387902,
+        "abi": {
+          "file": "abi/InheritfiV1PEPE.json",
+          "sha256": "d2daa067964743eb9d95eb70215623db23404ea047aca14322f0dcc9fcb1fb57"
+        },
+        "sourceSha256": "ef17f33058009a2402c5fd0f2f32e19846e3875db0128c3a836728772b159b56"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+        "symbol": "PEPE",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "POL",
+      "iToken": {
+        "name": "INHERITFI V1 POL",
+        "symbol": "iPOL"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1POL",
+        "address": "0x2C38D8D6C0c3cCC9B3277B226f21172e7804CA89",
+        "txHash": "0xe813f515fa2b4920bb0b672191dcdfe5ffb5d67b41805551d773aa3a43bb16d0",
+        "blockNumber": 26387903,
+        "abi": {
+          "file": "abi/InheritfiV1POL.json",
+          "sha256": "fc576637e5df7ad964579c5e3b693c8e1f2eea25497a46f716f82779bfb7848a"
+        },
+        "sourceSha256": "51ad48e3c3202dea88cd0dbbd10087b46159fa0da67f2aecb31c560059969e66"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "symbol": "POL",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "SHIB",
+      "iToken": {
+        "name": "INHERITFI V1 SHIB",
+        "symbol": "iSHIB"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1SHIB",
+        "address": "0xBd0BeBB7342200C3fDc4b6ee0284645e868f9866",
+        "txHash": "0x358b5ff096d0dca960d791085c34aceda3bd32daaab88e3d757a550779fc0ef4",
+        "blockNumber": 26387904,
+        "abi": {
+          "file": "abi/InheritfiV1SHIB.json",
+          "sha256": "f6c74a4bf10549ae55d050e0f83127d448416e56ac937714f735ea92d6e2089f"
+        },
+        "sourceSha256": "e45bedcdd12987ddccee0449607c3b8640ecf0ba6dfebd497a26e126114245ff"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "symbol": "SHIB",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "SKY",
+      "iToken": {
+        "name": "INHERITFI V1 SKY",
+        "symbol": "iSKY"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1SKY",
+        "address": "0x549793b17a06708406DB8aAd89D2B285C13476EE",
+        "txHash": "0x5820301c1f6f5727abb6acedec97854b4e1ee19811cb793b99eaecf6224ff38f",
+        "blockNumber": 26387905,
+        "abi": {
+          "file": "abi/InheritfiV1SKY.json",
+          "sha256": "e0fcef441d837c5cdb414d0b2e8e1bf91a4130ee1ef0669628fffcc0a349e5dd"
+        },
+        "sourceSha256": "26ffff04989c016747b404a541399039f4ea9f71d09c34e50df39a492a49e5ca"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x56072C95FAA701256059aa122697B133aDEd9279",
+        "symbol": "SKY",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "STRK",
+      "iToken": {
+        "name": "INHERITFI V1 STRK",
+        "symbol": "iSTRK"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1STRK",
+        "address": "0x9B84D56807561063d699b2886509952c49317D73",
+        "txHash": "0x495ca197f44f7228a1a43ba4dd3b4085d49371c2f403d058e541644cc88b6984",
+        "blockNumber": 26387906,
+        "abi": {
+          "file": "abi/InheritfiV1STRK.json",
+          "sha256": "91d0b8bf3f54acfbe017566dca3a92cd021e19d1234d0be2f65c86f62a210536"
+        },
+        "sourceSha256": "53509a911f16077ae0bfe5f6c9e09396c3879529fdc0a5610654b2c4bf652ea6"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
+        "symbol": "STRK",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "UNI",
+      "iToken": {
+        "name": "INHERITFI V1 UNI",
+        "symbol": "iUNI"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1UNI",
+        "address": "0x5C05e3c1B9e1d5A3320C527856435765A0214216",
+        "txHash": "0xb4519acb4911d1790004239b456c754a4655306f66b162c5253c87d641a04b93",
+        "blockNumber": 26387907,
+        "abi": {
+          "file": "abi/InheritfiV1UNI.json",
+          "sha256": "f40fd58e529cc25419bcbcbec6bce8c4a178046db5202aadbefcf8f1fedaed28"
+        },
+        "sourceSha256": "e748220ce6a77a525f744bd8111ec973d6262c6dd333297712be7c1dc8b8b360"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "symbol": "UNI",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "WBTC",
+      "iToken": {
+        "name": "INHERITFI V1 WBTC",
+        "symbol": "iWBTC"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1WBTC",
+        "address": "0x834358EC4cfC379ea4bD7Cc4CB2be5182d66F70d",
+        "txHash": "0xbc1ad1fa9d6090495751ca403a5f749e5092cd61f9e02c1734b525493056130d",
+        "blockNumber": 26387908,
+        "abi": {
+          "file": "abi/InheritfiV1WBTC.json",
+          "sha256": "ab0eac6f2ffc20e73d7e64b8ebee5d5c17a3408035f3539aff679291fde7f4de"
+        },
+        "sourceSha256": "28209aa9cbada2d6f9ae2bb1a4f7e886c62771dd19ec7b73b719bcead97f703f"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "symbol": "WBTC",
+        "decimals": 8
+      }
+    },
+    {
+      "ticker": "WETH",
+      "iToken": {
+        "name": "INHERITFI V1 WETH",
+        "symbol": "iWETH"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1WETH",
+        "address": "0xA967DDD3A9FF2566C8d1f70e99D1350533cAD2Ed",
+        "txHash": "0xf39e3a439a60bf26e918629930e6d2e4f7bf3f349f13bc7a365938d6097f2c3a",
+        "blockNumber": 26387910,
+        "abi": {
+          "file": "abi/InheritfiV1WETH.json",
+          "sha256": "f7bc4b22833c258ad63425fb7818a1b0f798a527165791b76b3821fd387c8e98"
+        },
+        "sourceSha256": "a5b7779f558738f0f4b1ecb49c5a325bd7f474664a935acbf27ecd67de1569d7"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "symbol": "WETH",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "WLD",
+      "iToken": {
+        "name": "INHERITFI V1 WLD",
+        "symbol": "iWLD"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1WLD",
+        "address": "0x8D8171f464fA83249995FAF4aa9414e8585d9BaF",
+        "txHash": "0x46067ec067b5fce580b1bbd959137b3c0032edfa9d5eab9a80a20694bf063453",
+        "blockNumber": 26387911,
+        "abi": {
+          "file": "abi/InheritfiV1WLD.json",
+          "sha256": "7362d4846204846866df1db7467688fadeb5ae5d2ac9c015aa859bbcb098bde1"
+        },
+        "sourceSha256": "1d3d58c5a601b397e9a39c9326b9ee51f4ce0ee3f9f04460eba107da1c472ae8"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
+        "symbol": "WLD",
+        "decimals": 18
+      }
+    },
+    {
+      "ticker": "wstETH",
+      "iToken": {
+        "name": "INHERITFI V1 wstETH",
+        "symbol": "iwstETH"
+      },
+      "wrapper": {
+        "contract": "InheritfiV1wstETH",
+        "address": "0x8AD934dc5C6A7d3E45C5148eFfDcE0a682b7ce9c",
+        "txHash": "0xa83dbf75c5897ff0cdaa5f42b327f214ef60054903909aa917db9670eab63314",
+        "blockNumber": 26387912,
+        "abi": {
+          "file": "abi/InheritfiV1wstETH.json",
+          "sha256": "de2307a96309ae8432757494d366260b10f3af4ddabcf2147ee099e314c69844"
+        },
+        "sourceSha256": "56feb3ef20f55e2f9e4721cbbad445cdebb989f31bfeaeeab620e545b4630fe6"
+      },
+      "underlying": {
+        "kind": "erc20",
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "symbol": "wstETH",
+        "decimals": 18
+      }
+    }
+  ]
+}

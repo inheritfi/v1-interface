@@ -1,0 +1,63 @@
+/* INHERITFI: design system (visual proposal 1, approved on 2026-10-10).
+   Cyan = owner and their actions; magenta = inheritance; amber = warnings; orange-red = errors. */
+:root {
+  color-scheme: dark;
+
+  --color-night: #0a0b10;
+  --color-shield-1: #17191d;
+  --color-shield-2: #22252a;
+  --color-line: #33373d;
+  --color-text: #e9eef3;
+  --color-muted: #97a0ac;
+  --color-origin: #00f2fe;
+  --color-sky: #4facfe;
+  --color-violet: #7f00ff;
+  --color-destination: #ff007f;
+  --color-notice: #ffb547;
+  --color-error: #ff6b4a;
+
+  --gradient-origin: linear-gradient(45deg, #00f2fe, #4facfe);
+  --gradient-destination: linear-gradient(135deg, #7f00ff, #ff007f);
+
+  --font-sans: "IBM Plex Sans", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-brand: "Montserrat", "IBM Plex Sans", sans-serif;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-night);
+  color: var(--color-text);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-origin);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

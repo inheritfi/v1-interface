@@ -1,0 +1,22 @@
+{
+  "schema": "inheritfi-multicall3/1",
+  "name": "Multicall3",
+  "version": "v3.1.0",
+  "address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+  "codehash": "0xd5c15df687b16f2ff992fc8d767b4216323184a2bbc6ee2f9c398c318e770891",
+  "compiler": {
+    "solc": "0.8.12+commit.f00d7308",
+    "optimizer": { "enabled": true, "runs": 10000000 },
+    "evmVersion": "default"
+  },
+  "files": {
+    "abi": { "file": "Multicall3.abi.json", "sha256": "c5106b3bf4cf70286a9483497b738bbaa22379d0c18dc955108436f2b6a2c68f" },
+    "runtime": { "file": "Multicall3.runtime.hex", "sha256": "e23dba1cd18a22e11ad869e35e5cd7f8923063be694ddbeb96e6efc47b204fce" }
+  },
+  "provenance": [
+    "source: not copied here; https://github.com/mds1/multicall, tag v3.1.0, src/Multicall3.sol (SHA-256 2054218939d3fa0f52f8ce1a33658d570a550671f63197356ee5744f7e188b1e), identical (except CRLF line endings) to the Ethereum mainnet source verified on Etherscan as Exact Match",
+    "abi: solc 0.8.12+commit.f00d7308 (official build) --abi on that source",
+    "runtime: Ethereum mainnet deployed bytecode at the address, identical on Etherscan and Blockscout (2026-10-12); identical to the runtime of the README pre-signed deployment; executable part identical to the compiled source",
+    "mainnet creation: tx 0x00d9fcb7848f6f6b0aae4fb709c133d69262b902156c85a473ef23faa60760bd, block 14353601"
+  ]
+}

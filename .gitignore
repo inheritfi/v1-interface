@@ -1,0 +1,16 @@
+# INHERITFI v1-interface
+node_modules/
+dist/
+dist-site/
+.site-ssr/
+.vite/
+coverage/
+.env
+.env.*
+*.local
+
+# Secrets and keys never live in the repository
+secrets/
+keystore/
+keystores/
+*.keystore

@@ -1,0 +1,22 @@
+{
+  "schema": "inheritfi-erc20/1",
+  "name": "IERC20",
+  "library": "OpenZeppelin Contracts v5.7.0 (commit cab19933c33c2ad1d4c7a84864a3601dddfd16f3)",
+  "source": {
+    "path": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+    "sha256": "01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c"
+  },
+  "compiler": {
+    "solc": "0.8.36+commit.8a079791"
+  },
+  "files": {
+    "abi": {
+      "file": "IERC20.abi.json",
+      "sha256": "00ed6ce9a746aaf0c8413a9795113be0d2fcc4363ea20f7cd97f15af2a2c3b7d"
+    }
+  },
+  "provenance": [
+    "abi: the \"abi\" array of the Forge artifact out/IERC20.sol/IERC20.json of v1-core (OpenZeppelin Contracts v5.7.0 submodule), written with Python json.dumps(indent=2, ensure_ascii=False) plus a final newline",
+    "the same ABI is used for the 27 underlying tokens; only balanceOf, allowance and approve are used by the interface"
+  ]
+}

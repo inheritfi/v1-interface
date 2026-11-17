@@ -1,0 +1,1825 @@
+{
+  "address.checksum": {
+    "text": "The capitalization doesn't match this address (EIP-55 checksum). It may have been copied wrong.",
+    "critical": true
+  },
+  "address.duplicate": {
+    "text": "This address is already in the list.",
+    "critical": true
+  },
+  "address.empty": {
+    "text": "Enter an address."
+  },
+  "address.format": {
+    "text": "Not an address. It must be 0x followed by 40 hexadecimal characters.",
+    "critical": true
+  },
+  "address.protocol": {
+    "text": "This is one of the protocol's contracts, not a person's wallet.",
+    "critical": true
+  },
+  "address.self": {
+    "text": "You can't use your own address.",
+    "critical": true
+  },
+  "address.zero": {
+    "text": "The zero address can't be used.",
+    "critical": true
+  },
+  "amount.empty": {
+    "text": "Enter an amount."
+  },
+  "amount.format": {
+    "text": "Use digits and one decimal point only.",
+    "critical": true
+  },
+  "amount.max": {
+    "text": "Max"
+  },
+  "amount.precision": {
+    "text": "Too many decimals for this asset.",
+    "critical": true
+  },
+  "amount.tooLarge": {
+    "text": "The amount is larger than what you have.",
+    "critical": true
+  },
+  "amount.zero": {
+    "text": "Enter an amount greater than zero.",
+    "critical": true
+  },
+  "blocked.busy": {
+    "text": "Another transaction is in progress."
+  },
+  "blocked.network": {
+    "text": "Switch your wallet to this network first."
+  },
+  "bulk.claimAll": {
+    "text": "Claim all",
+    "critical": true
+  },
+  "bulk.claimAllButton": {
+    "text": {
+      "one": "Claim all ({count})",
+      "other": "Claim all ({count})"
+    },
+    "critical": true
+  },
+  "bulk.claimRestAll": {
+    "text": "Claim the rest in all",
+    "critical": true
+  },
+  "bulk.claimRestAllButton": {
+    "text": {
+      "one": "Claim the rest in all ({count})",
+      "other": "Claim the rest in all ({count})"
+    },
+    "critical": true
+  },
+  "bulk.note": {
+    "text": "One transaction per asset: your wallet asks you to sign each one, one after another.",
+    "critical": true
+  },
+  "bulk.recoverAll": {
+    "text": "Recover all",
+    "critical": true
+  },
+  "bulk.recoverAllButton": {
+    "text": {
+      "one": "Recover all ({count})",
+      "other": "Recover all ({count})"
+    },
+    "critical": true
+  },
+  "bulk.restCloseButton": {
+    "text": {
+      "one": "Close claims and claim the rest ({count})",
+      "other": "Close claims and claim the rest ({count})"
+    },
+    "critical": true
+  },
+  "bulk.restCloseNote": {
+    "text": "Heirs who haven't claimed can't claim in these inheritances anymore. Amounts can change if another heir claims first.",
+    "critical": true
+  },
+  "bulk.restCloseTitle": {
+    "text": {
+      "one": "This closes the claims for everyone in {count} of these assets.",
+      "other": "This closes the claims for everyone in {count} of these assets."
+    },
+    "critical": true
+  },
+  "bulk.restLineClose": {
+    "text": "{symbol}: {unclaimed} The remaining {remaining} {symbol} {split}. You receive {amount} after the {fee} fee.",
+    "critical": true
+  },
+  "bulk.restLineClosed": {
+    "text": "{symbol}: claims are already closed. You receive {amount} after the {fee} fee.",
+    "critical": true
+  },
+  "bulk.restLineReceive": {
+    "text": "{symbol}: you receive {amount} after the {fee} fee.",
+    "critical": true
+  },
+  "bulk.restReceiveTitle": {
+    "text": {
+      "one": "You receive the rest in {count} asset.",
+      "other": "You receive the rest in {count} assets."
+    },
+    "critical": true
+  },
+  "bulk.startAll": {
+    "text": "Start all",
+    "critical": true
+  },
+  "bulk.startAllButton": {
+    "text": {
+      "one": "Start all ({count})",
+      "other": "Start all ({count})"
+    },
+    "critical": true
+  },
+  "combo.noMatch": {
+    "text": "No supported token matches “{query}”."
+  },
+  "combo.placeholder": {
+    "text": "Search by ticker"
+  },
+  "combo.search": {
+    "text": "Search"
+  },
+  "combo.trigger": {
+    "text": "{label}: {selected}. Change"
+  },
+  "common.back": {
+    "text": "Back"
+  },
+  "common.cancel": {
+    "text": "Cancel"
+  },
+  "common.cantInterpret": {
+    "text": "The contract returned data this interface can't interpret ({detail}).",
+    "critical": true
+  },
+  "common.cantInterpretShort": {
+    "text": "The contract returned data this interface can't interpret.",
+    "critical": true
+  },
+  "common.connectTitle": {
+    "text": "Connect your wallet."
+  },
+  "common.inWallet": {
+    "text": "In your wallet: {amount}"
+  },
+  "common.nothingShown": {
+    "text": "Nothing is shown so that nothing wrong is shown."
+  },
+  "common.ok": {
+    "text": "OK"
+  },
+  "common.reading": {
+    "text": "Reading from the contracts."
+  },
+  "common.remove": {
+    "text": "Remove"
+  },
+  "common.retrying": {
+    "text": "It's read again automatically in a few seconds."
+  },
+  "common.review": {
+    "text": "Review"
+  },
+  "common.tryAgain": {
+    "text": "Try again"
+  },
+  "contact.canStart": {
+    "text": "Recovery can start",
+    "critical": true
+  },
+  "contact.canStartTitle": {
+    "text": "You can start a recovery",
+    "critical": true
+  },
+  "contact.cancelsInheritance": {
+    "text": "What heirs have already claimed stays with them.",
+    "critical": true
+  },
+  "contact.cancelsInheritanceTitle": {
+    "text": "Starting cancels the inheritance in progress.",
+    "critical": true
+  },
+  "contact.manyContacts": {
+    "text": {
+      "one": "This owner has {count} recovery contacts in {symbol}. The whole balance goes to the contact who recovers first.",
+      "other": "This owner has {count} recovery contacts in {symbol}. The whole balance goes to the contact who recovers first."
+    },
+    "critical": true
+  },
+  "contact.noBalance": {
+    "text": "There's no {symbol} now. Starting now lets you recover anything the owner receives later.",
+    "critical": true
+  },
+  "contact.noHeirs": {
+    "text": "No heirs can take over.",
+    "critical": true
+  },
+  "contact.nothingTitle": {
+    "text": "Nothing to recover"
+  },
+  "contact.nothingYet": {
+    "text": "Nothing to recover yet."
+  },
+  "contact.ownerBalance": {
+    "text": "Owner's balance",
+    "critical": true
+  },
+  "contact.recover": {
+    "text": "Recover {symbol}",
+    "critical": true
+  },
+  "contact.recoverFrom": {
+    "text": "You can recover from",
+    "critical": true
+  },
+  "contact.start": {
+    "text": "Start recovery",
+    "critical": true
+  },
+  "contact.startNote": {
+    "text": "Starting begins a {period} wait. After it, you can recover the whole balance. The owner can cancel this at any time by being active.",
+    "critical": true
+  },
+  "contact.startedTitle": {
+    "text": "Recovery started {date}",
+    "critical": true
+  },
+  "contact.takeoverFrom": {
+    "text": "Heirs can take over from",
+    "critical": true
+  },
+  "contact.takeoverNow": {
+    "text": "Heirs can take over at any time.",
+    "critical": true
+  },
+  "contactLabel.cantBeShown": {
+    "text": "Can't be shown"
+  },
+  "contactLabel.nothingToRecover": {
+    "text": "Nothing to recover"
+  },
+  "contactLabel.ownerActive": {
+    "text": "Owner active"
+  },
+  "contactLabel.readyToRecover": {
+    "text": "Ready to recover",
+    "critical": true
+  },
+  "contactLabel.readyToStart": {
+    "text": "Ready to start",
+    "critical": true
+  },
+  "contactLabel.recoverNow": {
+    "text": "Recover now",
+    "critical": true
+  },
+  "contactLabel.started": {
+    "text": "Started"
+  },
+  "contactLine.canStartFrom": {
+    "text": "Recovery can start from {date}.",
+    "critical": true
+  },
+  "contactLine.inheritance": {
+    "text": "Inheritance in progress: heirs may be claiming.",
+    "critical": true
+  },
+  "contactLine.noActivitySince": {
+    "text": "No activity since {date}.",
+    "critical": true
+  },
+  "contactLine.noBalance": {
+    "text": "The owner has no {symbol} now."
+  },
+  "contactLine.recoverFrom": {
+    "text": "You can recover from {date}.",
+    "critical": true
+  },
+  "contactLine.takeoverFrom": {
+    "text": "Heirs can take over from {date}.",
+    "critical": true
+  },
+  "contactScreen.alsoHeir": {
+    "text": "You're also an heir of this owner for {symbols}."
+  },
+  "contactScreen.heir": {
+    "text": "You're an heir of this owner for {symbols}."
+  },
+  "contactScreen.notContact": {
+    "text": "This wallet isn't a recovery contact of {owner} in any asset."
+  },
+  "contactScreen.of": {
+    "text": "{symbol} of {owner}"
+  },
+  "contactScreen.openHeir": {
+    "text": "Open heir view"
+  },
+  "contactScreen.readErrorTitle": {
+    "text": "Couldn't read this recovery."
+  },
+  "contactScreen.readingTitle": {
+    "text": "Reading this recovery."
+  },
+  "contactScreen.sub": {
+    "text": "Recover the assets of someone who named you as a recovery contact."
+  },
+  "contactScreen.timeline": {
+    "text": "Recovery timeline",
+    "critical": true
+  },
+  "contactScreen.title": {
+    "text": "I'm a recovery contact"
+  },
+  "contactScreen.unsafeTitle": {
+    "text": "This recovery can't be shown safely.",
+    "critical": true
+  },
+  "contacts.atLeastOne": {
+    "text": "Add at least one recovery contact. The list can be replaced but not emptied.",
+    "critical": true
+  },
+  "contacts.tooMany": {
+    "text": "The protocol allows at most {max} recovery contacts.",
+    "critical": true
+  },
+  "editor.addContact": {
+    "text": "Add contact"
+  },
+  "editor.addHeir": {
+    "text": "Add heir"
+  },
+  "editor.alsoContact": {
+    "text": {
+      "one": "One address is also in your recovery contacts. That is allowed; make sure it is intended.",
+      "other": "{count} addresses are also in your recovery contacts. That is allowed; make sure it is intended."
+    },
+    "critical": true
+  },
+  "editor.alsoContactTitle": {
+    "text": "Also a recovery contact.",
+    "critical": true
+  },
+  "editor.alsoHeir": {
+    "text": {
+      "one": "One address is also among your heirs. That is allowed; make sure it is intended.",
+      "other": "{count} addresses are also among your heirs. That is allowed; make sure it is intended."
+    },
+    "critical": true
+  },
+  "editor.alsoHeirTitle": {
+    "text": "Also an heir.",
+    "critical": true
+  },
+  "editor.contactAddress": {
+    "text": "Recovery contact {n} address"
+  },
+  "editor.contactsCount": {
+    "text": "{n} of {max} recovery contacts"
+  },
+  "editor.contactsPowerTitle": {
+    "text": "Each of these addresses can take your whole balance of this asset.",
+    "critical": true
+  },
+  "editor.contactsReview": {
+    "text": "Check every address in full. This replaces your current recovery contacts for this asset and counts as activity.",
+    "critical": true
+  },
+  "editor.heirAddress": {
+    "text": "Heir {n} address"
+  },
+  "editor.heirShare": {
+    "text": "Heir {n} share in percent"
+  },
+  "editor.heirsReview": {
+    "text": "Check every address in full. This replaces your current heirs for this asset and counts as activity.",
+    "critical": true
+  },
+  "editor.removeContact": {
+    "text": "Remove recovery contact {n}"
+  },
+  "editor.removeHeir": {
+    "text": "Remove heir {n}"
+  },
+  "editor.signContacts": {
+    "text": "Sign and save contacts",
+    "critical": true
+  },
+  "editor.signHeirs": {
+    "text": "Sign and save heirs",
+    "critical": true
+  },
+  "editor.split": {
+    "text": "Split evenly"
+  },
+  "editor.splitNote": {
+    "text": "100% doesn't divide exactly: the first heir gets {first} and the others {other}.",
+    "critical": true
+  },
+  "editor.total": {
+    "text": "Total: {total} of 100.00% · {n} of {max} heirs",
+    "critical": true
+  },
+  "entry.readErrorTitle": {
+    "text": "Couldn't read your account."
+  },
+  "entry.readingTitle": {
+    "text": "Reading your account."
+  },
+  "heir.afterFee": {
+    "text": "After the {fee} inheritance fee.",
+    "critical": true
+  },
+  "heir.atTodaysBalance": {
+    "text": "At today's balance",
+    "critical": true
+  },
+  "heir.canStart": {
+    "text": "Inheritance can start",
+    "critical": true
+  },
+  "heir.canStartNote": {
+    "text": "Starting it doesn't move any funds. Heirs can claim {period} after it starts, and the owner can still cancel it by being active.",
+    "critical": true
+  },
+  "heir.canStartTitle": {
+    "text": "The inheritance can start",
+    "critical": true
+  },
+  "heir.claim": {
+    "text": "Claim my share",
+    "critical": true
+  },
+  "heir.claimNow": {
+    "text": "Claim now to keep your share.",
+    "critical": true
+  },
+  "heir.claimNowTitle": {
+    "text": "Claims can be closed at any time.",
+    "critical": true
+  },
+  "heir.claimRest": {
+    "text": "Claim the rest",
+    "critical": true
+  },
+  "heir.claimedBeforeFee": {
+    "text": "Total claimed from this owner (before fees)",
+    "critical": true
+  },
+  "heir.claimedBeforeFees": {
+    "text": "Total claimed from this owner (before fees)",
+    "critical": true
+  },
+  "heir.claimedTitle": {
+    "text": "You claimed your share"
+  },
+  "heir.claimsOpen": {
+    "text": "Claims open",
+    "critical": true
+  },
+  "heir.close": {
+    "text": "{unclaimed} If you continue, they can't claim in this inheritance anymore, and the remaining {remaining} {symbol} {split} (you receive {amount} after the {fee} fee).",
+    "critical": true
+  },
+  "heir.closeAndClaim": {
+    "text": "Close claims and claim the rest",
+    "critical": true
+  },
+  "heir.closeSplit": {
+    "text": {
+      "one": "goes only to you, the only heir who claimed",
+      "other": "is split only among the {count} heirs who claimed, including you"
+    },
+    "critical": true
+  },
+  "heir.closeTitle": {
+    "text": "This closes the claims for everyone.",
+    "critical": true
+  },
+  "heir.closeUnclaimed": {
+    "text": {
+      "one": "{count} of {total} heirs hasn't claimed yet.",
+      "other": "{count} of {total} heirs haven't claimed yet."
+    },
+    "critical": true
+  },
+  "heir.combined": {
+    "text": "If the balance changes before you claim, your amount changes too. The owner can cancel this at any time by being active, and recovery contacts come first. What you have already claimed stays with you.",
+    "critical": true
+  },
+  "heir.combinedTitle": {
+    "text": "The order in which heirs claim doesn't change your share.",
+    "critical": true
+  },
+  "heir.deadline": {
+    "text": "Claim your share before {date}. From then on, any heir who has already claimed can close the claims, and the rest goes only to heirs who claimed.",
+    "critical": true
+  },
+  "heir.doneAgain": {
+    "text": "If the owner receives more {symbol}, you can claim your part again.",
+    "critical": true
+  },
+  "heir.doneTitle": {
+    "text": "Inheritance received"
+  },
+  "heir.doneWallet": {
+    "text": "The {symbol} is in your wallet. You can unwrap it in Wrap and unwrap."
+  },
+  "heir.ifClaimNow": {
+    "text": "If you claim now",
+    "critical": true
+  },
+  "heir.missed": {
+    "text": "Heirs who didn't claim in time can't claim in this process anymore.",
+    "critical": true
+  },
+  "heir.missedTitle": {
+    "text": "The claim window for this inheritance has closed.",
+    "critical": true
+  },
+  "heir.noBalance": {
+    "text": "The owner has no {symbol} balance, so the inheritance can't start."
+  },
+  "heir.noBalanceTitle": {
+    "text": "Nothing to inherit right now"
+  },
+  "heir.ownerLastActive": {
+    "text": "Owner last active",
+    "critical": true
+  },
+  "heir.receive": {
+    "text": "You receive {amount} after the {fee} fee.",
+    "critical": true
+  },
+  "heir.receivePartTitle": {
+    "text": "You receive your part of the rest.",
+    "critical": true
+  },
+  "heir.recovery": {
+    "text": "Recovery contacts come first. If a contact completes the recovery, the {symbol} balance goes to them; if not, any heir can start the inheritance from the date above.",
+    "critical": true
+  },
+  "heir.recoveryStarted": {
+    "text": "Recovery started",
+    "critical": true
+  },
+  "heir.recoveryTitle": {
+    "text": "A recovery is in progress",
+    "critical": true
+  },
+  "heir.remaining": {
+    "text": "Remaining balance",
+    "critical": true
+  },
+  "heir.restFrom": {
+    "text": "You can claim the rest from",
+    "critical": true
+  },
+  "heir.restNote": {
+    "text": "The rest is the balance left by heirs who haven't claimed. It's split only among heirs who claimed.",
+    "critical": true
+  },
+  "heir.restTitle": {
+    "text": "You can claim the rest",
+    "critical": true
+  },
+  "heir.start": {
+    "text": "Start the inheritance",
+    "critical": true
+  },
+  "heir.startedTitle": {
+    "text": "Inheritance started {date}",
+    "critical": true
+  },
+  "heir.txLabel": {
+    "text": "{label} ({symbol})",
+    "critical": true
+  },
+  "heir.waitingNote": {
+    "text": "If the owner has no activity in {symbol} until then, any heir can start the inheritance.",
+    "critical": true
+  },
+  "heir.waitingTitle": {
+    "text": "The owner is active"
+  },
+  "heir.yourPart": {
+    "text": "Your part of the rest",
+    "critical": true
+  },
+  "heir.yourShare": {
+    "text": "Your share",
+    "critical": true
+  },
+  "heir.zero": {
+    "text": "you'll share in anything the owner receives later.",
+    "critical": true
+  },
+  "heir.zeroTitle": {
+    "text": "Claiming now with 0 still counts:",
+    "critical": true
+  },
+  "heirLabel.cantBeShown": {
+    "text": "Can't be shown"
+  },
+  "heirLabel.claimNow": {
+    "text": "Claim now",
+    "critical": true
+  },
+  "heirLabel.claimed": {
+    "text": "Claimed"
+  },
+  "heirLabel.claimsClosed": {
+    "text": "Claims closed",
+    "critical": true
+  },
+  "heirLabel.nothingToInherit": {
+    "text": "Nothing to inherit"
+  },
+  "heirLabel.ownerActive": {
+    "text": "Owner active"
+  },
+  "heirLabel.readyToClaim": {
+    "text": "Ready to claim",
+    "critical": true
+  },
+  "heirLabel.readyToStart": {
+    "text": "Ready to start",
+    "critical": true
+  },
+  "heirLabel.received": {
+    "text": "Received"
+  },
+  "heirLabel.recoveryInProgress": {
+    "text": "Recovery in progress",
+    "critical": true
+  },
+  "heirLabel.restAvailable": {
+    "text": "Rest available",
+    "critical": true
+  },
+  "heirLabel.started": {
+    "text": "Started"
+  },
+  "heirLine.canStart": {
+    "text": "Can start {date} if the owner stays inactive.",
+    "critical": true
+  },
+  "heirLine.claimBefore": {
+    "text": "Claim before {date}.",
+    "critical": true
+  },
+  "heirLine.claimNow": {
+    "text": "Claims can be closed at any time. Claim now to keep your share.",
+    "critical": true
+  },
+  "heirLine.claimsOpen": {
+    "text": "Claims open {date}.",
+    "critical": true
+  },
+  "heirLine.missed": {
+    "text": "You didn't claim in time.",
+    "critical": true
+  },
+  "heirLine.noActivitySince": {
+    "text": "No activity from the owner since {date}.",
+    "critical": true
+  },
+  "heirLine.noBalance": {
+    "text": "The owner has no {symbol} balance."
+  },
+  "heirLine.received": {
+    "text": "{amount} claimed."
+  },
+  "heirLine.recovery": {
+    "text": "Inheritance can't start before {date}.",
+    "critical": true
+  },
+  "heirLine.restFrom": {
+    "text": "Rest available from {date}.",
+    "critical": true
+  },
+  "heirLine.restLeft": {
+    "text": "{amount} left. Claiming it closes the claims for everyone.",
+    "critical": true
+  },
+  "heirLine.restShared": {
+    "text": "{amount} to share among heirs who claimed.",
+    "critical": true
+  },
+  "heirScreen.alsoContact": {
+    "text": "You're also a recovery contact of this owner for {symbols}."
+  },
+  "heirScreen.from": {
+    "text": "{symbol} from {owner}"
+  },
+  "heirScreen.openContact": {
+    "text": "Open recovery contact view"
+  },
+  "heirScreen.readErrorTitle": {
+    "text": "Couldn't read this inheritance."
+  },
+  "heirScreen.readingTitle": {
+    "text": "Reading this inheritance."
+  },
+  "heirScreen.sub": {
+    "text": "See what someone left you and claim it when the time comes."
+  },
+  "heirScreen.timeline": {
+    "text": "Inheritance timeline",
+    "critical": true
+  },
+  "heirScreen.title": {
+    "text": "I'm an heir"
+  },
+  "heirScreen.unsafeTitle": {
+    "text": "This inheritance can't be shown safely.",
+    "critical": true
+  },
+  "heirs.atLeastOne": {
+    "text": "Add at least one heir. The list can be replaced but not emptied.",
+    "critical": true
+  },
+  "heirs.tooMany": {
+    "text": "The protocol allows at most {max} heirs.",
+    "critical": true
+  },
+  "heirs.total": {
+    "text": "The shares must add up to exactly 100.00%.",
+    "critical": true
+  },
+  "integrity.decimals": {
+    "text": "decimals() is {value}, expected {expected}.",
+    "critical": true
+  },
+  "integrity.mismatch": {
+    "text": "For your safety, nothing can be done here. Details:",
+    "critical": true
+  },
+  "integrity.mismatchTitle": {
+    "text": "Contracts don't match this interface.",
+    "critical": true
+  },
+  "integrity.name": {
+    "text": "name() is {value}.",
+    "critical": true
+  },
+  "integrity.network": {
+    "text": "Network",
+    "critical": true
+  },
+  "integrity.noCode": {
+    "text": "No contract code at the expected address.",
+    "critical": true
+  },
+  "integrity.noCodeAt": {
+    "text": "No contract code at {address}.",
+    "critical": true
+  },
+  "integrity.noOwner": {
+    "text": "Could not read owner().",
+    "critical": true
+  },
+  "integrity.noUnderlying": {
+    "text": "Could not read the underlying token address (expected {expected}).",
+    "critical": true
+  },
+  "integrity.notMulticall3": {
+    "text": "The code at {address} is not the verified Multicall3 (codehash {codehash}).",
+    "critical": true
+  },
+  "integrity.otherOwner": {
+    "text": "Owner is {owner}, not {expected}.",
+    "critical": true
+  },
+  "integrity.otherUnderlying": {
+    "text": "Underlying token is {value}, expected {expected}.",
+    "critical": true
+  },
+  "integrity.ownershipTitle": {
+    "text": "Ownership changed.",
+    "critical": true
+  },
+  "integrity.symbol": {
+    "text": "symbol() is {value}.",
+    "critical": true
+  },
+  "integrity.underlyingNoCode": {
+    "text": "The underlying token has no contract code.",
+    "critical": true
+  },
+  "integrity.unreachable": {
+    "text": "The interface could not read the network, so nothing can be shown or done."
+  },
+  "integrity.unreachableTitle": {
+    "text": "Network unreachable."
+  },
+  "integrity.verifying": {
+    "text": "Checking that the contracts on this network match this interface."
+  },
+  "integrity.verifyingTitle": {
+    "text": "Verifying contracts."
+  },
+  "integrity.wrongChain": {
+    "text": "The node reports chain {got}; this interface expects chain {expected}.",
+    "critical": true
+  },
+  "link.invalid": {
+    "text": "Ask the owner to copy the link again, or enter their address."
+  },
+  "link.invalidTitle": {
+    "text": "This link doesn't contain a valid address."
+  },
+  "list.fixRows": {
+    "text": "Fix the rows marked above."
+  },
+  "list.separator": {
+    "text": ", "
+  },
+  "menu.app": {
+    "text": "App"
+  },
+  "menu.appDesc": {
+    "text": "Wrap assets and set up your plan"
+  },
+  "menu.button": {
+    "text": "Menu"
+  },
+  "menu.disclaimer": {
+    "text": "Disclaimer"
+  },
+  "menu.disclaimerDesc": {
+    "text": "Risks and terms of use"
+  },
+  "menu.docs": {
+    "text": "Docs"
+  },
+  "menu.docsDesc": {
+    "text": "Guides, whitepaper and contracts"
+  },
+  "menu.home": {
+    "text": "INHERITFI home"
+  },
+  "menu.protocol": {
+    "text": "Protocol"
+  },
+  "menu.social": {
+    "text": "Official links & social"
+  },
+  "menu.trust": {
+    "text": "Only trust links from inheritfi.com."
+  },
+  "nav.contact": {
+    "text": "I'm a recovery contact"
+  },
+  "nav.heir": {
+    "text": "I'm an heir"
+  },
+  "nav.language": {
+    "text": "Language"
+  },
+  "nav.main": {
+    "text": "Main"
+  },
+  "nav.plan": {
+    "text": "Inheritance plan"
+  },
+  "nav.wrap": {
+    "text": "Wrap and unwrap"
+  },
+  "overview.error": {
+    "text": {
+      "one": "{count} couldn't be read",
+      "other": "{count} couldn't be read"
+    }
+  },
+  "overview.finished": {
+    "text": {
+      "one": "{count} finished",
+      "other": "{count} finished"
+    }
+  },
+  "overview.groupAction": {
+    "text": "Needs your action"
+  },
+  "overview.groupError": {
+    "text": "Couldn't be read"
+  },
+  "overview.groupFinished": {
+    "text": "Finished"
+  },
+  "overview.groupWaiting": {
+    "text": "Waiting"
+  },
+  "overview.reading": {
+    "text": "Reading"
+  },
+  "overview.readyToClaim": {
+    "text": {
+      "one": "{count} ready to claim",
+      "other": "{count} ready to claim"
+    }
+  },
+  "overview.readyToRecover": {
+    "text": {
+      "one": "{count} ready to recover",
+      "other": "{count} ready to recover"
+    }
+  },
+  "overview.readyToStart": {
+    "text": {
+      "one": "{count} ready to start",
+      "other": "{count} ready to start"
+    }
+  },
+  "overview.restAvailable": {
+    "text": {
+      "one": "{count} with the rest available",
+      "other": "{count} with the rest available"
+    }
+  },
+  "overview.separator": {
+    "text": " · "
+  },
+  "overview.waiting": {
+    "text": {
+      "one": "{count} waiting",
+      "other": "{count} waiting"
+    }
+  },
+  "owner.change": {
+    "text": "Change"
+  },
+  "owner.connect": {
+    "text": "Connect the wallet the owner named as heir or recovery contact."
+  },
+  "owner.label": {
+    "text": "Owner"
+  },
+  "owner.noRole": {
+    "text": "Check that you connected the wallet the owner named."
+  },
+  "owner.noRoleTitle": {
+    "text": "This wallet isn't an heir or a recovery contact of {owner} in any asset."
+  },
+  "owner.readErrorTitle": {
+    "text": "Couldn't read this owner's plans."
+  },
+  "owner.readingTitle": {
+    "text": "Reading this owner's plans."
+  },
+  "owner.self": {
+    "text": "Your plan is in Inheritance plan."
+  },
+  "owner.selfTitle": {
+    "text": "This is your own address."
+  },
+  "ownerForm.label": {
+    "text": "Owner's address"
+  },
+  "ownerForm.note": {
+    "text": "The owner can send you a link from their plan, so you don't have to type it."
+  },
+  "ownerForm.self": {
+    "text": "This is your own address. Your plan is in Inheritance plan."
+  },
+  "ownerForm.show": {
+    "text": "Show"
+  },
+  "pct.empty": {
+    "text": "Enter a percentage."
+  },
+  "pct.format": {
+    "text": "Use a number with up to 2 decimals, e.g. 33.34.",
+    "critical": true
+  },
+  "pct.tooBig": {
+    "text": "A share can't be more than 100%.",
+    "critical": true
+  },
+  "pct.zero": {
+    "text": "Each heir needs more than 0%.",
+    "critical": true
+  },
+  "picker.asset": {
+    "text": "Asset"
+  },
+  "picker.plan": {
+    "text": "plan"
+  },
+  "picker.search": {
+    "text": "Search asset by ticker"
+  },
+  "plan.balance": {
+    "text": "Balance"
+  },
+  "plan.both": {
+    "text": {
+      "one": "One address is both an heir and a recovery contact.",
+      "other": "{count} addresses are both an heir and a recovery contact."
+    },
+    "critical": true
+  },
+  "plan.canActAfter": {
+    "text": "Can act after {period}",
+    "critical": true
+  },
+  "plan.completed": {
+    "text": "The {symbol} balance of this plan has been distributed to your heirs.",
+    "critical": true
+  },
+  "plan.completedTitle": {
+    "text": "Inheritance completed.",
+    "critical": true
+  },
+  "plan.confirm": {
+    "text": "Confirm I'm active",
+    "critical": true
+  },
+  "plan.confirmLabel": {
+    "text": "Confirm I'm active ({symbol})",
+    "critical": true
+  },
+  "plan.confirmNeedsWrap": {
+    "text": "Wrap some {underlying} first. There's nothing to confirm yet."
+  },
+  "plan.contactPower": {
+    "text": "Any one of them can start a recovery after {recovery} without activity from you and, {waiting} later, take your whole {symbol} balance minus a {fee} fee. Any activity from you before then cancels it.",
+    "critical": true
+  },
+  "plan.contacts": {
+    "text": "Recovery contacts"
+  },
+  "plan.contactsFirst": {
+    "text": "Your recovery contacts come first: they can recover this asset even while an inheritance is in progress.",
+    "critical": true
+  },
+  "plan.contactsNote": {
+    "text": "Any one of them can take your whole {symbol} balance, minus a {fee} fee. They can start a recovery after {recovery} without activity from you and complete it {waiting} later. Any activity from you before then cancels it.",
+    "critical": true
+  },
+  "plan.editContacts": {
+    "text": "Edit contacts"
+  },
+  "plan.editHeirs": {
+    "text": "Edit heirs"
+  },
+  "plan.editNeedsWrap": {
+    "text": "Wrap some {underlying} first. Only an owner of {symbol} can name heirs or recovery contacts."
+  },
+  "plan.editProcessActive": {
+    "text": "An inheritance or recovery is in progress. Confirm you're active first to cancel it.",
+    "critical": true
+  },
+  "plan.fees": {
+    "text": "Wrap {wrap} · Unwrap {unwrap} · Inheritance {inheritance} · Recovery {recovery}",
+    "critical": true
+  },
+  "plan.feesTitle": {
+    "text": "Protocol fees for {symbol}",
+    "critical": true
+  },
+  "plan.heirs": {
+    "text": "Heirs"
+  },
+  "plan.inactivity": {
+    "text": "Time without activity",
+    "critical": true
+  },
+  "plan.inheritance": {
+    "text": "It started on {startedAt}. Heirs can claim their shares from {claimsFrom}, and what is left from {remainingFrom}. Any activity from you cancels it. Shares already claimed stay with those heirs.",
+    "critical": true
+  },
+  "plan.inheritanceTitle": {
+    "text": "Your heirs started the inheritance.",
+    "critical": true
+  },
+  "plan.noContacts": {
+    "text": "No recovery contacts yet."
+  },
+  "plan.noHeirs": {
+    "text": "No heirs yet."
+  },
+  "plan.noPlan": {
+    "text": "You haven't named heirs or recovery contacts for {symbol} yet, so nothing happens when time passes.",
+    "critical": true
+  },
+  "plan.ofPeriod": {
+    "text": "of {period}",
+    "critical": true
+  },
+  "plan.periods": {
+    "text": "Recovery contacts can act after {recovery} without activity from you; heirs after {inheritance}. These periods are set by the protocol; if they change, this plan shows it.",
+    "critical": true
+  },
+  "plan.recovery": {
+    "text": "A recovery contact started it on {startedAt}. From {executableAt} they can take your whole {symbol} balance, minus a {fee} fee. Any activity from you before then cancels it.",
+    "critical": true
+  },
+  "plan.recoveryTitle": {
+    "text": "A recovery is in progress.",
+    "critical": true
+  },
+  "plan.saveContactsLabel": {
+    "text": "Save recovery contacts ({symbol})",
+    "critical": true
+  },
+  "plan.saveHeirsLabel": {
+    "text": "Save heirs ({symbol})",
+    "critical": true
+  },
+  "plan.seeNotice": {
+    "text": "See the notice above for the process in progress."
+  },
+  "plan.unsafeTitle": {
+    "text": "This plan can't be shown safely.",
+    "critical": true
+  },
+  "planScreen.confirmAll": {
+    "text": "Confirm I'm active in all",
+    "critical": true
+  },
+  "planScreen.confirmAllButton": {
+    "text": {
+      "one": "Confirm I'm active in all ({count})",
+      "other": "Confirm I'm active in all ({count})"
+    },
+    "critical": true
+  },
+  "planScreen.confirmAllFirst": {
+    "text": "Assets with a recovery or inheritance in progress go first: confirming cancels it.",
+    "critical": true
+  },
+  "planScreen.connect": {
+    "text": "Your plans are read from the contracts for the connected account."
+  },
+  "planScreen.readErrorTitle": {
+    "text": "Couldn't read your plan."
+  },
+  "planScreen.readingTitle": {
+    "text": "Reading your plan."
+  },
+  "planScreen.sub": {
+    "text": "Every asset has its own plan.",
+    "critical": true
+  },
+  "planScreen.title": {
+    "text": "Inheritance plan"
+  },
+  "process.afterStart": {
+    "text": "{period} after it starts",
+    "critical": true
+  },
+  "process.afterStartNotBefore": {
+    "text": "{period} after it starts, not before {date}",
+    "critical": true
+  },
+  "process.claimsOpen": {
+    "text": "Claims open",
+    "critical": true
+  },
+  "process.heirsCanTakeOver": {
+    "text": "Heirs can take over",
+    "critical": true
+  },
+  "process.inheritanceCanStart": {
+    "text": "Inheritance can start",
+    "critical": true
+  },
+  "process.inheritanceStarted": {
+    "text": "Inheritance started",
+    "critical": true
+  },
+  "process.ownerLastActive": {
+    "text": "Owner last active",
+    "critical": true
+  },
+  "process.recoveryCanStart": {
+    "text": "Recovery can start",
+    "critical": true
+  },
+  "process.recoveryStarted": {
+    "text": "Recovery started",
+    "critical": true
+  },
+  "process.restAvailable": {
+    "text": "Rest available",
+    "critical": true
+  },
+  "process.timeline": {
+    "text": "Timeline"
+  },
+  "process.youCanRecover": {
+    "text": "You can recover",
+    "critical": true
+  },
+  "revert.alreadyClaimed": {
+    "text": "You have already claimed your share.",
+    "critical": true
+  },
+  "revert.badAddr": {
+    "text": "A recovery contact can't be the zero address or your own address.",
+    "critical": true
+  },
+  "revert.badCount": {
+    "text": "The number of recovery contacts isn't allowed.",
+    "critical": true
+  },
+  "revert.badHeir": {
+    "text": "An heir can't be the zero address or your own address.",
+    "critical": true
+  },
+  "revert.badInput": {
+    "text": "The list is empty or doesn't match.",
+    "critical": true
+  },
+  "revert.badPct": {
+    "text": "Each heir needs a share greater than 0%.",
+    "critical": true
+  },
+  "revert.claimsClosed": {
+    "text": "The claims for this inheritance are closed.",
+    "critical": true
+  },
+  "revert.dup": {
+    "text": "The same recovery contact appears twice.",
+    "critical": true
+  },
+  "revert.dupHeir": {
+    "text": "The same heir appears twice.",
+    "critical": true
+  },
+  "revert.ethTransferFailed": {
+    "text": "The contract couldn't send the ETH to your account.",
+    "critical": true
+  },
+  "revert.insufficientBalance": {
+    "text": "The amount is larger than your balance.",
+    "critical": true
+  },
+  "revert.noBalance": {
+    "text": "The owner has no balance left in this asset.",
+    "critical": true
+  },
+  "revert.noEth": {
+    "text": "Enter an amount greater than zero.",
+    "critical": true
+  },
+  "revert.notClaimedYet": {
+    "text": "Claim your share first.",
+    "critical": true
+  },
+  "revert.notHeir": {
+    "text": "This wallet isn't an heir of this owner in this asset.",
+    "critical": true
+  },
+  "revert.notStarted": {
+    "text": "The inheritance hasn't started.",
+    "critical": true
+  },
+  "revert.notTestator": {
+    "text": "This account has no activity or balance in this asset yet. Wrap some first.",
+    "critical": true
+  },
+  "revert.overflow": {
+    "text": "The shares add up to more than 100%.",
+    "critical": true
+  },
+  "revert.processActive": {
+    "text": "An inheritance or recovery is in progress. Confirm you're active first to cancel it.",
+    "critical": true
+  },
+  "revert.tooManyHeirs": {
+    "text": "There are more heirs than the protocol allows.",
+    "critical": true
+  },
+  "revert.tooSoon": {
+    "text": "It's too soon for this step. Check the dates shown.",
+    "critical": true
+  },
+  "revert.total100": {
+    "text": "The shares must add up to exactly 100%.",
+    "critical": true
+  },
+  "revert.zeroAmount": {
+    "text": "Enter an amount greater than zero.",
+    "critical": true
+  },
+  "revertContact.alreadyStarted": {
+    "text": "A recovery is already in progress in this asset.",
+    "critical": true
+  },
+  "revertContact.notRecoveryUser": {
+    "text": "This wallet isn't a recovery contact of this owner in this asset.",
+    "critical": true
+  },
+  "revertContact.notStarted": {
+    "text": "The recovery hasn't started.",
+    "critical": true
+  },
+  "revertCustom.insufficientAllowance": {
+    "text": "The approved amount is too low.",
+    "critical": true
+  },
+  "revertCustom.insufficientBalance": {
+    "text": "The amount is larger than your balance.",
+    "critical": true
+  },
+  "revertCustom.reentrantCall": {
+    "text": "The contract rejected a nested call.",
+    "critical": true
+  },
+  "revertCustom.safeErc20Failed": {
+    "text": "The token refused the transfer.",
+    "critical": true
+  },
+  "revertHeir.processActive": {
+    "text": "An inheritance or a recovery is already in progress in this asset.",
+    "critical": true
+  },
+  "risk.aaveBody": {
+    "text": "An upgrade could change how AAVE balances or transfers work. INHERITFI can't prevent it.",
+    "critical": true
+  },
+  "risk.aaveTitle": {
+    "text": "AAVE is an upgradeable contract controlled by Aave governance through on-chain votes.",
+    "critical": true
+  },
+  "risk.fetBody": {
+    "text": "FET's issuer can pause all FET transfers. While paused, you can't wrap or unwrap FET. Your iFET stay backed 1:1, and inheritance and recovery of iFET keep working.",
+    "critical": true
+  },
+  "risk.fetTitle": {
+    "text": "FET can be paused.",
+    "critical": true
+  },
+  "risk.ldoBody": {
+    "text": "it can move any holder's LDO without permission, burn it, and freeze transfers. INHERITFI can't prevent it.",
+    "critical": true
+  },
+  "risk.ldoTitle": {
+    "text": "Lido DAO governance controls LDO through on-chain votes:",
+    "critical": true
+  },
+  "risk.native": {
+    "text": "Native",
+    "critical": true
+  },
+  "risk.notice": {
+    "text": "Notice",
+    "critical": true
+  },
+  "risk.standard": {
+    "text": "Standard",
+    "critical": true
+  },
+  "risk.wbtcBody": {
+    "text": "WBTC's issuer can pause all WBTC transfers. While paused, you can't wrap or unwrap WBTC, or approve or cancel an approval. Your iWBTC stay backed 1:1, and inheritance and recovery of iWBTC keep working.",
+    "critical": true
+  },
+  "risk.wbtcTitle": {
+    "text": "WBTC can be paused.",
+    "critical": true
+  },
+  "share.copied": {
+    "text": "Link copied."
+  },
+  "share.copy": {
+    "text": "Copy link for your heirs and contacts"
+  },
+  "share.linkLabel": {
+    "text": "Link for your heirs and contacts"
+  },
+  "share.note": {
+    "text": "Send this link to your heirs and recovery contacts. It only shows your address; it doesn't give anyone access to your funds.",
+    "critical": true
+  },
+  "succession.after": {
+    "text": "After {period}, {date}",
+    "critical": true
+  },
+  "succession.inheritance": {
+    "text": "Heirs can start the inheritance",
+    "critical": true
+  },
+  "succession.inheritanceNow": {
+    "text": "Heirs can start the inheritance now",
+    "critical": true
+  },
+  "succession.lastActive": {
+    "text": "Last active {date}",
+    "critical": true
+  },
+  "succession.lastActiveNote": {
+    "text": "Your last activity with this asset"
+  },
+  "succession.recovery": {
+    "text": "Recovery contacts can start a recovery",
+    "critical": true
+  },
+  "succession.recoveryNow": {
+    "text": "Recovery contacts can act now",
+    "critical": true
+  },
+  "time.days": {
+    "text": {
+      "one": "{count} day",
+      "other": "{count} days"
+    },
+    "critical": true
+  },
+  "time.hours": {
+    "text": {
+      "one": "{count} h",
+      "other": "{count} h"
+    },
+    "critical": true
+  },
+  "time.minutes": {
+    "text": {
+      "one": "{count} min",
+      "other": "{count} min"
+    },
+    "critical": true
+  },
+  "time.seconds": {
+    "text": {
+      "one": "{count} s",
+      "other": "{count} s"
+    },
+    "critical": true
+  },
+  "time.separator": {
+    "text": " "
+  },
+  "tx.approvalChanged": {
+    "text": "The approval changed to {amount} {symbol} before wrapping. Nothing was wrapped.",
+    "critical": true
+  },
+  "tx.approvalMismatch": {
+    "text": "The approval on the network is {actual}, not {expected} (was it changed in your wallet?). Nothing was wrapped. You can set it to 0 with \"Cancel approval\".",
+    "critical": true
+  },
+  "tx.approvalUnreadable": {
+    "text": "The approval was sent, but it couldn't be read back. Check it before trying again.",
+    "critical": true
+  },
+  "tx.checking": {
+    "text": "Checking with the contract before asking your wallet.",
+    "critical": true
+  },
+  "tx.checkingTitle": {
+    "text": "{label}: checking.",
+    "critical": true
+  },
+  "tx.completedBefore": {
+    "text": "Completed before this one: {done} of {total}.",
+    "critical": true
+  },
+  "tx.connectFirst": {
+    "text": "Connect your wallet first. Nothing was sent.",
+    "critical": true
+  },
+  "tx.contractWouldReject": {
+    "text": "The contract would reject this transaction, so it wasn't sent.",
+    "critical": true
+  },
+  "tx.done": {
+    "text": "Confirmed on the network. This screen has been read again.",
+    "critical": true
+  },
+  "tx.doneTitle": {
+    "text": "{label}: done.",
+    "critical": true
+  },
+  "tx.earlierSteps": {
+    "text": "Earlier steps completed: {done} of {total}. The approval shown below is the one on the network.",
+    "critical": true
+  },
+  "tx.failedTitle": {
+    "text": "{label}: not completed.",
+    "critical": true
+  },
+  "tx.generic": {
+    "text": "The transaction couldn't be completed. Nothing was changed.",
+    "critical": true
+  },
+  "tx.hash": {
+    "text": "Transaction {hash}",
+    "critical": true
+  },
+  "tx.listMismatch": {
+    "text": "The list on the network is not the one you signed. Check your plan before trying again.",
+    "critical": true
+  },
+  "tx.listUnreadable": {
+    "text": "The change was sent, but the list couldn't be read back. Check your plan before trying again.",
+    "critical": true
+  },
+  "tx.noEth": {
+    "text": "Not enough ETH for this amount plus the network fee. Nothing was sent.",
+    "critical": true
+  },
+  "tx.notEnoughToken": {
+    "text": "The amount is larger than the {symbol} in your wallet. Nothing was sent.",
+    "critical": true
+  },
+  "tx.notSentAfter": {
+    "text": {
+      "one": "The {count} after it wasn't sent.",
+      "other": "The {count} after it weren't sent."
+    },
+    "critical": true
+  },
+  "tx.nothingToSend": {
+    "text": "There is nothing to send.",
+    "critical": true
+  },
+  "tx.pending": {
+    "text": "Sent to the network.",
+    "critical": true
+  },
+  "tx.pendingTitle": {
+    "text": "{label}: waiting for confirmation.",
+    "critical": true
+  },
+  "tx.reasonNothingSent": {
+    "text": "{reason} Nothing was sent.",
+    "critical": true
+  },
+  "tx.rejected": {
+    "text": "You rejected the request in your wallet. Nothing was sent.",
+    "critical": true
+  },
+  "tx.reverted": {
+    "text": "The transaction was included but reverted. Nothing changed except the network fee.",
+    "critical": true
+  },
+  "tx.sequenceDone": {
+    "text": "{label} ({n} of {n})",
+    "critical": true
+  },
+  "tx.sequenceItem": {
+    "text": "{label} · {n} of {total}: {symbol}",
+    "critical": true
+  },
+  "tx.stepApprove": {
+    "text": "approve exactly {amount} {symbol}",
+    "critical": true
+  },
+  "tx.stepLabel": {
+    "text": "{label} · step {n} of {total}: {step}",
+    "critical": true
+  },
+  "tx.stepReset": {
+    "text": "set the {symbol} approval to 0",
+    "critical": true
+  },
+  "tx.stepWrap": {
+    "text": "wrap {amount} {symbol}",
+    "critical": true
+  },
+  "tx.tokenWouldReject": {
+    "text": "The token would reject this transaction, so it wasn't sent.",
+    "critical": true
+  },
+  "tx.unconfirmed": {
+    "text": "The transaction was sent, but its result couldn't be confirmed. Check your plan before trying again.",
+    "critical": true
+  },
+  "tx.wallet": {
+    "text": "Review the details in your wallet and confirm or reject them.",
+    "critical": true
+  },
+  "tx.walletTitle": {
+    "text": "{label}: confirm in your wallet.",
+    "critical": true
+  },
+  "tx.wontApprove": {
+    "text": "The {symbol} token answered that it would not approve. Nothing was sent.",
+    "critical": true
+  },
+  "tx.wrongChain": {
+    "text": "Your wallet is on a different network. Switch it and try again. Nothing was sent.",
+    "critical": true
+  },
+  "unwrap.amountLabel": {
+    "text": "Amount of {symbol} to unwrap",
+    "critical": true
+  },
+  "unwrap.fee": {
+    "text": "Fee {fee} {symbol} ({pct}).",
+    "critical": true
+  },
+  "unwrap.noFee": {
+    "text": "No fee. This account is a treasury wallet of this asset.",
+    "critical": true
+  },
+  "unwrap.nothing": {
+    "text": "You have no {symbol} to unwrap."
+  },
+  "unwrap.summary": {
+    "text": "You unwrap {amount} {symbol}. {feeText} You receive {net} {underlying}.",
+    "critical": true
+  },
+  "unwrap.txLabel": {
+    "text": "Unwrap {symbol}",
+    "critical": true
+  },
+  "unwrap.unwrap": {
+    "text": "Unwrap"
+  },
+  "wallet.back": {
+    "text": "Back"
+  },
+  "wallet.chooseTitle": {
+    "text": "Connect a wallet"
+  },
+  "wallet.close": {
+    "text": "Close"
+  },
+  "wallet.confirming": {
+    "text": "Confirm in your wallet…"
+  },
+  "wallet.connect": {
+    "text": "Connect wallet"
+  },
+  "wallet.connected": {
+    "text": "Connected"
+  },
+  "wallet.connecting": {
+    "text": "Connecting…"
+  },
+  "wallet.detected": {
+    "text": "Detected"
+  },
+  "wallet.disconnect": {
+    "text": "Disconnect"
+  },
+  "wallet.duplicate": {
+    "text": "Two extensions claim to be {name}. Remove the one you do not trust and reload the page."
+  },
+  "wallet.failed": {
+    "text": "The wallet did not connect. Check that a browser wallet is installed and unlocked."
+  },
+  "wallet.imitation": {
+    "text": "Blocked: this extension uses the name of another wallet."
+  },
+  "wallet.installButton": {
+    "text": "Install {name} Extension"
+  },
+  "wallet.installText": {
+    "text": "{name} is not installed in this browser. Get the extension from its official site, then reload this page."
+  },
+  "wallet.installTitle": {
+    "text": "Install {name}"
+  },
+  "wallet.legal": {
+    "text": "By connecting a wallet, you confirm that you have read, understood, and agree to the {link}.",
+    "critical": true
+  },
+  "wallet.legalLink": {
+    "text": "INHERITFI Disclaimer",
+    "critical": true
+  },
+  "wallet.none": {
+    "text": "No wallet connected"
+  },
+  "wallet.others": {
+    "text": "Other wallets"
+  },
+  "wallet.othersDesc": {
+    "text": "Other extensions in this browser"
+  },
+  "wallet.othersNone": {
+    "text": "No other wallets found in this browser."
+  },
+  "wallet.rejected": {
+    "text": "The connection request was rejected in the wallet."
+  },
+  "wallet.switch": {
+    "text": "Switch network"
+  },
+  "wallet.switchTitle": {
+    "text": "Switch the wallet to {name} (chain {chain})"
+  },
+  "wallet.wrongNetwork": {
+    "text": "Wrong network"
+  },
+  "wrap.amountLabel": {
+    "text": "Amount of {symbol} to wrap",
+    "critical": true
+  },
+  "wrap.approved": {
+    "text": "Approved for the {symbol} contract {address}: {amount}. Wrapping uses it; you can also set it to 0.",
+    "critical": true
+  },
+  "wrap.cancelApproval": {
+    "text": "Cancel approval",
+    "critical": true
+  },
+  "wrap.cancelApprovalLabel": {
+    "text": "Cancel approval ({symbol})",
+    "critical": true
+  },
+  "wrap.maxNoEstimate": {
+    "text": "Couldn't estimate the network fee. Enter the amount yourself.",
+    "critical": true
+  },
+  "wrap.maxNoRoom": {
+    "text": "There isn't enough ETH to also pay the network fee.",
+    "critical": true
+  },
+  "wrap.more": {
+    "text": "Wrap more"
+  },
+  "wrap.noWallet": {
+    "text": "You have no {symbol} in your wallet."
+  },
+  "wrap.stepApprove": {
+    "text": "approve the exact amount",
+    "critical": true
+  },
+  "wrap.stepItem": {
+    "text": "{n}) {step}",
+    "critical": true
+  },
+  "wrap.stepReset": {
+    "text": "set the approval to 0",
+    "critical": true
+  },
+  "wrap.stepSeparator": {
+    "text": ", "
+  },
+  "wrap.stepWrap": {
+    "text": "wrap",
+    "critical": true
+  },
+  "wrap.summary": {
+    "text": "You send {amount} {underlying}. Fee {fee} {underlying} ({pct}). You receive {net} {symbol}.",
+    "critical": true
+  },
+  "wrap.summaryEth": {
+    "text": "{summary} Keep some ETH for the network fee.",
+    "critical": true
+  },
+  "wrap.summaryEthMax": {
+    "text": "{summary} {reserve} ETH stays in your wallet for the network fee.",
+    "critical": true
+  },
+  "wrap.summaryToken": {
+    "text": {
+      "one": "{summary} Your wallet will ask you to confirm {count} transaction: {list}. The approval is always for exactly this amount, to the {symbol} contract only.",
+      "other": "{summary} Your wallet will ask you to confirm {count} transactions: {list}. The approval is always for exactly this amount, to the {symbol} contract only."
+    },
+    "critical": true
+  },
+  "wrap.txLabel": {
+    "text": "Wrap {symbol}",
+    "critical": true
+  },
+  "wrap.wrap": {
+    "text": "Wrap"
+  },
+  "wrapScreen.assets": {
+    "text": "Assets"
+  },
+  "wrapScreen.connect": {
+    "text": "Your balances are read from the contracts for the connected account."
+  },
+  "wrapScreen.fees": {
+    "text": "Fees: wrap {wrap} · unwrap {unwrap}",
+    "critical": true
+  },
+  "wrapScreen.noFeeTreasury": {
+    "text": "none (treasury wallet)",
+    "critical": true
+  },
+  "wrapScreen.readErrorTitle": {
+    "text": "Couldn't read your balances."
+  },
+  "wrapScreen.rowApproved": {
+    "text": "Approved {amount}",
+    "critical": true
+  },
+  "wrapScreen.rowWallet": {
+    "text": "Wallet {amount}"
+  },
+  "wrapScreen.rowWrapped": {
+    "text": "Wrapped {amount}"
+  },
+  "wrapScreen.sub": {
+    "text": "Only wrapped balances can have heirs and recovery contacts.",
+    "critical": true
+  },
+  "wrapScreen.title": {
+    "text": "Wrap and unwrap"
+  }
+}
