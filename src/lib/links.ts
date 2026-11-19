@@ -14,7 +14,7 @@ export interface AppLinks {
 /** Official INHERITFI accounts. Single source for the app and the site. */
 export const OFFICIAL_SOCIAL: Omit<AppLinks, "site"> = {
   x: "https://x.com/inheritfi",
-  discord: "https://discord.gg/RbWTNkeNTc",
+  discord: "https://discord.inheritfi.com",
   github: "https://github.com/inheritfi",
 };
 

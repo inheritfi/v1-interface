@@ -124,7 +124,7 @@ describe("public site", () => {
     }
     // the own links (app, documentation, disclaimer, home page) open in the same tab
     for (const a of [...html.matchAll(/<a\s[^>]*>/g)].map((m) => m[0]).filter((x) => !socials.some((u) => x.includes(`href="${u}"`)))) expect(a, a).not.toContain("target=");
-    expect(allowedExternal("mainnet")).toEqual(["https://app.inheritfi.com/", "https://x.com/inheritfi", "https://discord.gg/RbWTNkeNTc", "https://github.com/inheritfi"]);
+    expect(allowedExternal("mainnet")).toEqual(["https://app.inheritfi.com/", "https://x.com/inheritfi", "https://discord.inheritfi.com", "https://github.com/inheritfi"]);
     // no page links to the placeholder home pages anymore
     for (const p of PAGES) for (const u of [PLACEHOLDER_SOCIAL.x, PLACEHOLDER_SOCIAL.discord, PLACEHOLDER_SOCIAL.github]) expect(page(p.path), String(p.path)).not.toContain(`href="${u}"`);
     expect(PENDING_PAGES).toEqual([]);
@@ -137,7 +137,7 @@ describe("public site", () => {
   });
 
   it("official accounts: the app and the site use the same three links in every environment", () => {
-    expect(OFFICIAL_SOCIAL).toEqual({ x: "https://x.com/inheritfi", discord: "https://discord.gg/RbWTNkeNTc", github: "https://github.com/inheritfi" });
+    expect(OFFICIAL_SOCIAL).toEqual({ x: "https://x.com/inheritfi", discord: "https://discord.inheritfi.com", github: "https://github.com/inheritfi" });
     for (const env of SITE_ENVS) {
       const { site, ...app } = appLinks(env);
       expect(app, env).toEqual(OFFICIAL_SOCIAL);
